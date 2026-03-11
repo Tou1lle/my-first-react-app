@@ -8,6 +8,7 @@ import { RenderList, RenderList2, ListApp } from './rendering-techniques/RenderL
 import { ConditionalApp, ConditionalAppBigger } from './rendering-techniques/ConditionalRender.jsx'
 import ButtonApp from './passing-data/PassingData.jsx'
 import ButtonApp2 from './passing-data/PassingData2.jsx'
+import { TodoList, MonthList } from './keys.jsx/Todos.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,5 +20,7 @@ createRoot(document.getElementById('root')).render(
     <ConditionalApp />
     <ConditionalAppBigger />
     <ButtonApp2 />
+    <TodoList />
+    <MonthList></MonthList>
   </StrictMode>,
 )
