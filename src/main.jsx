@@ -6,6 +6,8 @@ import Greeting from './Greeting.jsx'
 import TestComponent from './TestComponent.jsx'
 import { RenderList, RenderList2, ListApp } from './RenderList.jsx'
 import { ConditionalApp, ConditionalAppBigger } from './ConditionalRender.jsx'
+import ButtonApp from './PassingData.jsx'
+import ButtonApp2 from './PassingData2.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,5 +18,6 @@ createRoot(document.getElementById('root')).render(
     <ListApp />
     <ConditionalApp />
     <ConditionalAppBigger />
+    <ButtonApp2 />
   </StrictMode>,
 )
