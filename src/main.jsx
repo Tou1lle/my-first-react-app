@@ -4,10 +4,10 @@ import './index.css'
 import App from './App.jsx'
 import Greeting from './Greeting.jsx'
 import TestComponent from './TestComponent.jsx'
-import { RenderList, RenderList2, ListApp } from './RenderList.jsx'
-import { ConditionalApp, ConditionalAppBigger } from './ConditionalRender.jsx'
-import ButtonApp from './PassingData.jsx'
-import ButtonApp2 from './PassingData2.jsx'
+import { RenderList, RenderList2, ListApp } from './rendering-techniques/RenderList.jsx'
+import { ConditionalApp, ConditionalAppBigger } from './rendering-techniques/ConditionalRender.jsx'
+import ButtonApp from './passing-data/PassingData.jsx'
+import ButtonApp2 from './passing-data/PassingData2.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
