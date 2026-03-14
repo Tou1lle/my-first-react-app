@@ -9,9 +9,11 @@ import { ConditionalApp, ConditionalAppBigger } from './rendering-techniques/Con
 import ButtonApp from './passing-data/PassingData.jsx'
 import ButtonApp2 from './passing-data/PassingData2.jsx'
 import { TodoList, MonthList } from './keys.jsx/Todos.jsx'
+import Person from './state/personState.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    {/*
     <Greeting />
     <TestComponent />
     <RenderList />
@@ -22,5 +24,7 @@ createRoot(document.getElementById('root')).render(
     <ButtonApp2 />
     <TodoList />
     <MonthList></MonthList>
+    */}
+    <Person></Person>
   </StrictMode>,
 )
