@@ -10,6 +10,7 @@ import ButtonApp from './passing-data/PassingData.jsx'
 import ButtonApp2 from './passing-data/PassingData2.jsx'
 import { TodoList, MonthList } from './keys.jsx/Todos.jsx'
 import Person from './state/personState.jsx'
+import FormObjChange from './state/ObjectState.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')).render(
     <TodoList />
     <MonthList></MonthList>
     */}
-    <Person></Person>
+    {/*<Person></Person>*/}
+    <FormObjChange></FormObjChange>
   </StrictMode>,
 )
